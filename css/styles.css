@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'sansationbold';
+  src: url('../assets/fonts/sansation/Sansation-Bold-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-Bold-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-Bold-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-Bold-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-Bold-webfont.svg?1099976477#sansationbold') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sansationbold_italic';
+  src: url('../assets/fonts/sansation/Sansation-BoldItalic-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-BoldItalic-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-BoldItalic-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-BoldItalic-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-BoldItalic-webfont.svg?1099976477#sansationbold_italic') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sansationitalic';
+  src: url('../assets/fonts/sansation/Sansation-Italic-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-Italic-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-Italic-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-Italic-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-Italic-webfont.svg?1099976477#sansationitalic') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sansation_lightlight';
+  src: url('../assets/fonts/sansation/Sansation-Light-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-Light-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-Light-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-Light-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-Light-webfont.svg?1099976477#sansation_lightlight') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sansation_lightlight_italic';
+  src: url('../assets/fonts/sansation/Sansation-LightItalic-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-LightItalic-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-LightItalic-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-LightItalic-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-LightItalic-webfont.svg?1099976477#sansation_lightlight_italic') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'sansationregular';
+  src: url('../assets/fonts/sansation/Sansation-Regular-webfont.eot?1099976477');
+  src: url('../assets/fonts/sansation/Sansation-Regular-webfont.eot?&1099976477#iefix') format("embedded-opentype"), url('../assets/fonts/sansation/Sansation-Regular-webfont.woff?1099976477') format("woff"), url('../assets/fonts/sansation/Sansation-Regular-webfont.ttf?1099976477') format("truetype"), url('../assets/fonts/sansation/Sansation-Regular-webfont.svg?1099976477#sansationregular') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 article,
 aside,
 details,
@@ -235,6 +277,10 @@ input[type="checkbox"], input[type="radio"] {
 body {
   font-size: 1em;
   line-height: 1.4;
+  font-family: "SansationRegular", "HelveticaNeue-Light", "Helvetica\a 	Neue", Helvetica, Arial, sans-serif;
+}
+.no-fontface body {
+  font-size: 1.05em;
 }
 
 ::-moz-selection {
@@ -275,4 +321,25 @@ nav[role="navigation"] {
 
 footer[role="contentinfo"] {
   clear: both;
+}
+
+.chapter-summary a {
+  display: block;
+  padding: .5em;
+  color: #000;
+  opacity: .7;
+  border: none;
+}
+.chapter-summary a:hover {
+  opacity: 1;
+}
+.chapter-summary a:visited {
+  opacity: .9;
+}
+.chapter-summary a b {
+  display: block;
+}
+.chapter-summary a span {
+  display: block;
+  font-size: .8em;
 }
