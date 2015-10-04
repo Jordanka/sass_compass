@@ -231,3 +231,48 @@ input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
+
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #FF0000;
+  text-shadow: none;
+}
+
+::selection {
+  background: #FF0000;
+  text-shadow: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header[role="banner"], footer[role="contentinfo"] {
+  width: 100%;
+  display: block;
+}
+
+nav[role="navigation"] {
+  width: 25%;
+  float: left;
+}
+
+.main-content {
+  width: 70%;
+  float: right;
+}
+
+footer[role="contentinfo"] {
+  clear: both;
+}
